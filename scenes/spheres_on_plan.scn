@@ -1,0 +1,518 @@
+# Camera
+camera:
+{
+	resolution:			1280, 720;
+	antialiasing:		1;
+	max_depth:			1;
+	max_distance:		2147483647;
+	position:			0, 0, -1000;
+	rotation:			0, 0, 0;
+}
+
+# commentaire:
+# color en %
+lights: [2]
+{
+#	1
+	{
+		position:		500, 0, -500;
+		color:			0, 100, 0;
+		rotation:		0, 0, 0;
+		coef_color:		100;
+		soft_shadows:	1;
+		interval_soft:	100;
+	}
+
+#	2
+	{
+		position:		-500, 0, -500;
+		color:			0, 0, 100;
+		rotation:		0, 0, 0;
+		coef_color:		100;
+		soft_shadows:	1;
+		interval_soft:	100;
+	}
+}
+
+# objects
+objects: [20]
+{
+#	1
+	{
+		type:			PLANE;
+		position:		0, -100, 0;
+		rotation:		0, 1, 0;
+		size:			0;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		100, 100, 100;
+		coef_diff:		100;
+		color_spec:		100, 100, 100;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+		reflect_coef:	0;
+	}
+
+#	2
+	{
+		type:			SPHERE;
+		position:		0, 0, 0;
+		rotation:		0, 0, 0;
+		size:			100;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	3
+	{
+		type:			SPHERE;
+		position:		-400, 100, 200;
+		rotation:		0, 0, 0;
+		size:			200;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	4, mini 1
+	{
+		type:			SPHERE;
+		position:		0, -90, -450;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	5, mini 2
+	{
+		type:			SPHERE;
+		position:		-40, -90, -350;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	6, mini 3
+	{
+		type:			SPHERE;
+		position:		12, -90, -420;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	7, mini 4
+	{
+		type:			SPHERE;
+		position:		35, -90, -330;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	8, mini 5
+	{
+		type:			SPHERE;
+		position:		50, -90, -125;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	9, mini 6
+	{
+		type:			SPHERE;
+		position:		-100, -90, -450;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	10, mini 7
+	{
+		type:			SPHERE;
+		position:		-50, -90, -300;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	11, mini 8
+	{
+		type:			SPHERE;
+		position:		-53, -90, -275;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	12, mini 9
+	{
+		type:			SPHERE;
+		position:		-65, -90, -412;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	13, mini 10
+	{
+		type:			SPHERE;
+		position:		66, -90, -100;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	14, mini 11
+	{
+		type:			SPHERE;
+		position:		66, -90, -480;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	15, mini 12
+	{
+		type:			SPHERE;
+		position:		200, -90, -500;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	16, mini 13
+	{
+		type:			SPHERE;
+		position:		-215, -90, -500;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	17, mini 14
+	{
+		type:			SPHERE;
+		position:		-215, -90, -50;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	18, mini 15
+	{
+		type:			SPHERE;
+		position:		-220, -90, -600;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	19, mini 16
+	{
+		type:			SPHERE;
+		position:		0, -90, -550;
+		rotation:		0, 0, 0;
+		size:			10;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+
+#	20
+	{
+		type:			SPHERE;
+		position:		600, 300, 0;
+		rotation:		0, 0, 0;
+		size:			400;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		50, 50, 50;
+		coef_diff:		100;
+		color_spec:		50, 50, 50;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1.5;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+}

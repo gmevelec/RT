@@ -1,0 +1,93 @@
+# Camera
+camera:
+{
+	resolution:			1280, 720;
+	antialiasing:		1;
+	max_depth:			0;
+	max_distance:		2147483647;
+	position:			0, 2000, 0;
+	rotation:			90, 0, 0;
+}
+
+# commentaire:
+# color en %
+lights: [5]
+{
+#	1
+	{
+		position:		0, 0, 0;
+		rotation:		0, 0, 0;
+		color:			100, 100, 100;
+		coef_color:		100;
+		soft_shadows:	16;
+		interval_soft:	100;
+	}
+
+#	2
+	{
+		position:		500, 0, 0;
+		rotation:		0, 0, 0;
+		color:			100, 100, 100;
+		coef_color:		100;
+		soft_shadows:	16;
+		interval_soft:	100;
+	}
+
+#	3
+	{
+		position:		0, 0, 500;
+		rotation:		0, 0, 0;
+		color:			100, 100, 100;
+		coef_color:		100;
+		soft_shadows:	16;
+		interval_soft:	100;
+	}
+
+#	4
+	{
+		position:		-500, 0, 0;
+		rotation:		0, 0, 0;
+		color:			100, 100, 100;
+		coef_color:		100;
+		soft_shadows:	16;
+		interval_soft:	100;
+	}
+
+#	5
+	{
+		position:		0, 0, -500;
+		rotation:		0, 0, 0;
+		color:			100, 100, 100;
+		coef_color:		100;
+		soft_shadows:	16;
+		interval_soft:	100;
+	}
+}
+
+# objects
+objects: [1]
+{
+#	1
+	{
+		type:			PLANE;
+		position:		0, -100, 0;
+		rotation:		0, 1, 0;
+		size:			0;
+		param1:			0;
+
+		color_ambi:		0, 0, 0;
+		coef_ambi:		100;
+		color_diff:		52.2, 63.5, 72.5;
+		coef_diff:		100;
+		color_spec:		52.2, 63.5, 72.5;
+		coef_spec:		100;
+
+		shininess:		0;
+
+		index_ref:		1;
+
+		opacity_coef:	100;
+
+		reflect_coef:	100;
+	}
+}
