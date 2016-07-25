@@ -1,1 +1,1 @@
-![alt tag](https://raw.githubusercontent.com/gmevelec/RT/screenshot/family.png)
+![alt tag](https://github.com/gmevelec/RT/tree/master/screenshots/family.png)
